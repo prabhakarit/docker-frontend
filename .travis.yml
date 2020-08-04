@@ -1,0 +1,8 @@
+language: generic
+sudo: required
+services:
+    - docker
+before_install:
+    - docker build -t prabhakarit/docker-frontend -f Dockerfile.dev .
+script:
+    - docker run prabhakarit/docker-frontend npm run test
