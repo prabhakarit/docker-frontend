@@ -5,4 +5,4 @@ services:
 before_install:
     - docker build -t prabhakarit/docker-frontend -f Dockerfile.dev .
 script:
-    - docker run prabhakarit/docker-frontend npm run test -- --coverage
+    - docker run -e CI=true prabhakarit/docker-frontend npm run test
