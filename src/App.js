@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Prabhakar is enjoying learning docker
+          Prabhakar sets builds a dockerised sample app and uses CI/CD of Travis and deploys to elastic beanstalk for the first time, what a great experience !!!
         </p>
         <a
           className="App-link"
