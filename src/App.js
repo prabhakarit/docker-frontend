@@ -8,7 +8,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Prabhakar sets builds a dockerised sample app and uses CI/CD of Travis and deploys to elastic beanstalk for the first time, what a great experience !!!
+          Prabhakar uses a dockerised sample app and uses CI/CD of Travis and 
+        </p>
+        <p>
+        uses CI/CD of Travis and deploys to elastic beanstalk for the first time
+        </p>
+        <p>
+          In git feature branch feature/f1 is used which is then merged with master
+        </p>
+        <p>
+         what a great experience !!!
         </p>
         <a
           className="App-link"
